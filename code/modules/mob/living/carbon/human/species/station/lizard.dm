@@ -25,6 +25,7 @@
 	name_language = LANGUAGE_UNATHI
 	health_hud_intensity = 2
 	hunger_factor = DEFAULT_HUNGER_FACTOR * 3
+	spawn_flags = SPECIES_IS_RESTRICTED
 
 	min_age = 18
 	max_age = 260
@@ -42,7 +43,7 @@
 	heat_level_1 = 420 //Default 360 - Higher is better
 	heat_level_2 = 480 //Default 400
 	heat_level_3 = 1100 //Default 1000
-	
+
 	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	flesh_color = "#34af10"
