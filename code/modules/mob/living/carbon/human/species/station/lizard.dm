@@ -1,4 +1,3 @@
-/*
 /datum/species/unathi
 	name = SPECIES_UNATHI
 	name_plural = SPECIES_UNATHI
@@ -151,4 +150,3 @@
 					if(W.wound_damage() == 0 && prob(50))
 						E.wounds -= W
 
-*/

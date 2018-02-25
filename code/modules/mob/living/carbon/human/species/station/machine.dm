@@ -1,4 +1,3 @@
-/*
 /datum/species/machine
 	name = SPECIES_IPC
 	name_plural = "machines"
@@ -101,5 +100,3 @@
 /datum/species/machine/disfigure_msg(var/mob/living/carbon/human/H)
 	var/datum/gender/T = gender_datums[H.get_gender()]
 	return "<span class='danger'>[T.His] monitor is completely busted!</span>\n"
-
-*/
