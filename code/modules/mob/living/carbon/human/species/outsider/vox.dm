@@ -1,4 +1,3 @@
-/*
 /datum/species/vox
 	name = SPECIES_VOX
 	name_plural = SPECIES_VOX
@@ -17,6 +16,7 @@
 	dealing with their traders and merchants; those that do rarely enjoy the experience."
 
 	taste_sensitivity = TASTE_DULL
+	spawn_flags = SPECIES_IS_RESTRICTED
 
 	speech_sounds = list('sound/voice/shriek1.ogg')
 	speech_chance = 20
@@ -36,7 +36,6 @@
 	siemens_coefficient = 0.2
 
 	species_flags = SPECIES_FLAG_NO_SCAN
-	spawn_flags = SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED
 	appearance_flags = HAS_EYE_COLOR | HAS_HAIR_COLOR
 
 	blood_color = "#2299fc"
@@ -97,5 +96,3 @@
 /datum/species/vox/disfigure_msg(var/mob/living/carbon/human/H)
 	var/datum/gender/T = gender_datums[H.get_gender()]
 	return "<span class='danger'>[T.His] beak is chipped! [T.He] [T.is] not even recognizable.</span>\n" //Pretty birds.
-
-*/
