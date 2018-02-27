@@ -12,26 +12,23 @@
 	var/atom/owner
 
 /datum/scp/proc/SCPinit(atom/A)
-	world << "12"
 	if(!isatom(A))
 		return
 	owner = A
-	world << "13"
 
 	if(component)
-		world << "14"
-		component = A.AddComponent(component,src)
+		component = A.AddComponent(component,src,owner)
 
 /datum/scp/proc/isCompatible(atom/A)
 	return 1
 
 /datum/scp/proc/Remove()
-
 	if(owner)
 		onLose()
-		owner.TakeComponent(component.type)
+		owner.TakeComponent(component)
 		owner.SCP = null
 		qdel(src)
+
 	else
 		qdel(src)
 
@@ -40,28 +37,18 @@
 /datum/scp/proc/onLose()
 
 /atom/proc/makeSCP(var/A)
-	world << "1"
 	if(A && !ispath(A))
-		world <<  "2"
 		if(ispath(GLOB.SCP_list[A]))
-			world << "4"
 			SCP = GLOB.SCP_list[A]
 		else
-			world << "5"
 			return
-	world << "6"
 	if(ispath(SCP))
-		world << "7"
 		SCP = new SCP()
-		world << "8 . [SCP]"
 	if(!isdatum(SCP) || !canBeSCP(SCP)) //One last isdatum to check if someone didnt fuck the path
-		world << "9"
 		qdel(SCP)
 		return
-	world << "10"
 	SCP.SCPinit(src)
 	SCP.onGain()
-	world << "11"
 	return 1
 
 /atom/proc/canBeSCP(datum/scp/SCP_)
