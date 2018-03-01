@@ -37,15 +37,15 @@
 	)
 
 
-/obj/structure/closet/secure_closet/cos
-	name = "chief of security's locker"
+/obj/structure/closet/secure_closet/seccomm
+	name = "Security Commander's locker"
 	req_access = list(access_hos)
 	icon_state = "hossecure1"
 	icon_closed = "hossecure"
 	icon_locked = "hossecure1"
 	icon_opened = "hossecureopen"
 	icon_off = "hossecureoff"
-
+/* AWAITING OVERHAUL
 /obj/structure/closet/secure_closet/cos/WillContain()
 	return list(
 		/obj/item/clothing/suit/armor/pcarrier/medium/command/security,
@@ -75,7 +75,7 @@
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
 	)
-
+*/
 /obj/structure/closet/secure_closet/brigofficer
 	name = "brig officer's locker"
 	req_access = list(access_armory)
