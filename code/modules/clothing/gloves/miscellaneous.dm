@@ -80,6 +80,14 @@
 	heat_protection = HANDS
 	max_heat_protection_temperature = GLOVES_MAX_HEAT_PROTECTION_TEMPERATURE
 
+/obj/item/clothing/gloves/thick/bggloves
+	desc = "Thick tactical gloves, commonly worn by security forces."
+	name = "\improper tactical gloves"
+	icon_state = "wear-gloves"
+	item_state = "bg_gloves"
+	force = 5
+	armor = list(melee = 80, bullet = 60, laser = 60,energy = 25, bomb = 50, bio = 10, rad = 0)
+
 /obj/item/clothing/gloves/thick/botany
 	desc = "These leather work gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin."
 	name = "thick leather gloves"
