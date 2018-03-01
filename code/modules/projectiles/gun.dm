@@ -46,6 +46,7 @@
 	throw_speed = 4
 	throw_range = 5
 	force = 5
+	drawsound = 'sound/items/unholster.ogg' //redoing sounds for these soon
 	origin_tech = list(TECH_COMBAT = 1)
 	attack_verb = list("struck", "hit", "bashed")
 	zoomdevicename = "scope"

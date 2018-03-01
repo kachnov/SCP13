@@ -20,6 +20,7 @@
 	var/list/attack_verb = list("hit") //Used in attackby() to say how something was attacked "[x] has been [z.attack_verb] by [y] with [z]"
 	var/lock_picking_level = 0 //used to determine whether something can pick a lock, and how well.
 	var/force = 0
+	var/drawsound = 'sound/items/unholster.ogg'
 
 	var/heat_protection = 0 //flags which determine which body parts are protected from heat. Use the HEAD, UPPER_TORSO, LOWER_TORSO, etc. flags. See setup.dm
 	var/cold_protection = 0 //flags which determine which body parts are protected from cold. Use the HEAD, UPPER_TORSO, LOWER_TORSO, etc. flags. See setup.dm
@@ -739,3 +740,9 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 		. = "<span class='warning'>\icon[src] [gender==PLURAL?"some":"a"] [(blood_color != SYNTH_BLOOD_COLOUR) ? "blood" : "oil"]-stained [src]</span>"
 	else
 		. = "\icon[src] \a [src]"
+
+
+/obj/item/proc/drawsound(mob/user)
+	if(drawsound)
+		user.visible_message("<span class = 'warning'><b>[user] grabs a weapon!</b></span>")
+		playsound(user, drawsound, 50, 1) //taking a page out of the playbook
