@@ -7,6 +7,7 @@
 	caliber = ".45"
 	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2)
 	load_method = MAGAZINE
+	drawsound = 'sound/items/unholster.ogg' //redoing sounds for these soon
 
 /obj/item/weapon/gun/projectile/colt/officer
 	name = "military .45 pistol"
@@ -33,6 +34,7 @@
 	fire_delay = 5.5
 	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2)
 	load_method = MAGAZINE
+	drawsound = 'sound/items/unholster.ogg' //redoing sounds for these soon
 
 /obj/item/weapon/gun/projectile/sec/update_icon()
 	..()

@@ -48,7 +48,7 @@
 		light.destroy()
 		light = null
 	return ..()
-	
+
 /atom/set_opacity()
 	. = ..()
 	if(.)
@@ -77,9 +77,10 @@ if(loc != old_loc) {\
 	. = ..()
 	update_light()
 
-/obj/item/pickup()
+/obj/item/pickup(mob/user)
 	. = ..()
 	update_light()
+	drawsound(user)
 
 /obj/item/dropped()
 	. = ..()
