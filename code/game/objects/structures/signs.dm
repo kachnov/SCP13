@@ -420,3 +420,9 @@
 		to_chat(user,"This one belongs to Dr.[claimant], MD.")
 	else
 		to_chat(user,"The name is left blank for some reason.")
+
+// TOPSIDE SIGNS
+
+/obj/structure/sign/warning/topside/SecureArealv2
+	icon_state = "securearea2"
+	desc = "A warning sign which reads: CAUTION, SECURE AREA. LEVEL 2+ CLEARANCE REQUIRED."
