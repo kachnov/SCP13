@@ -43,8 +43,8 @@
 	name = "guard helmet"
 	desc = "A tactical riot helmet, commonly seen on security personnel."
 	icon_state = "obj-riot"
-	item_state = "helmet_riot"
-	armor = list(melee = 50, bullet = 60, laser = 60, energy = 45, bomb = 30, bio = 0, rad = 0)
+	item_state = "helmet_riot2"
+	armor = list(melee = 50, bullet = 40, laser = 20, energy = 25, bomb = 30, bio = 0, rad = 0)
 	siemens_coefficient = 0.6
 
 /obj/item/clothing/head/helmet/merc

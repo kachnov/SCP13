@@ -681,3 +681,25 @@
 	worn_state = "sterile"
 	permeability_coefficient = 0.50
 	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 30, rad = 0)
+
+/obj/item/clothing/under/whiteuniform
+	name = "white uniform"
+	desc = "A sterile white uniform."
+	icon_state = "white"
+
+/obj/item/clothing/under/greyuniform
+	name = "grey uniform"
+	desc = "A dull grey uniform."
+	icon_state = "grey"
+
+/obj/item/clothing/under/suittie
+	name = "suit and tie"
+	desc = "A rather sterile looking suit and tie."
+	icon_state = "suit"
+
+/obj/item/clothing/under/dclass
+	name = "D-Class uniform"
+	desc = "A bright orange jumpsuit, indicative of Class D personnel."
+	icon_state = "d"
+
+
