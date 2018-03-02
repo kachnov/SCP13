@@ -168,7 +168,7 @@
 
 /obj/structure/closet/secure_closet/mtf/enlisted/WillContain()
 	return list(
-		/obj/item/clothing/under/whiteuniform,
+		/obj/item/clothing/under/scp/whiteuniform,
 		/obj/item/clothing/head/helmet/bgtactical,
 		/obj/item/clothing/suit/armor/vest/bgguard,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
@@ -186,7 +186,7 @@
 
 /obj/structure/closet/secure_closet/mtf/commander/WillContain()
 	return list(
-		/obj/item/clothing/under/whiteuniform,
+		/obj/item/clothing/under/scp/whiteuniform,
 		/obj/item/clothing/head/helmet/bgtactical,
 		/obj/item/clothing/suit/armor/vest/bgguard,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
@@ -204,7 +204,7 @@
 
 /obj/structure/closet/secure_closet/mtf/nco/WillContain()
 	return list(
-		/obj/item/clothing/under/whiteuniform,
+		/obj/item/clothing/under/scp/whiteuniform,
 		/obj/item/clothing/head/helmet/bgtactical,
 		/obj/item/clothing/suit/armor/vest/bgguard,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
@@ -222,7 +222,7 @@
 
 /obj/structure/closet/secure_closet/mtf/co/WillContain()
 	return list(
-		/obj/item/clothing/under/whiteuniform,
+		/obj/item/clothing/under/scp/whiteuniform,
 		/obj/item/clothing/head/helmet/bgtactical,
 		/obj/item/clothing/suit/armor/vest/bgguard,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
