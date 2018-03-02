@@ -470,3 +470,14 @@
 	id = access_merchant
 	desc = "Merchant"
 	access_type = ACCESS_TYPE_NONE
+
+
+/*********************
+* Deep Space Site 90 *
+*********************/
+
+/var/const/access_mtfcommander = 100
+/datum/access/mtfcommander
+	id = access_mtfcommander
+	desc = "MTF Commander"
+	access_type = ACCESS_REGION_SECURITY

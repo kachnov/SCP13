@@ -160,7 +160,7 @@
 "dd" = (/obj/machinery/papershredder,/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/office/cos)
 "de" = (/obj/structure/table/standard,/obj/item/weapon/paper_bin,/obj/item/weapon/pen/red,/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/office/cos)
 "df" = (/obj/structure/table/standard,/obj/item/device/flashlight/lamp,/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/office/cos)
-"dg" = (/obj/structure/closet/secure_closet/mtf/commander,/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/office/cos)
+"dg" = (/obj/structure/closet/secure_closet/mtf/commander{req_access = list(100)},/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/office/cos)
 "dh" = (/turf/simulated/floor/tiled/white,/area/crew_quarters/safe_room/bridge{name = "\improper MTF Washroom"})
 "di" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/simulated/floor/plating,/area/crew_quarters/safe_room/bridge{name = "\improper MTF Washroom"})
 "dj" = (/obj/structure/table/steel,/obj/structure/bedsheetbin,/turf/simulated/floor/tiled/white,/area/crew_quarters/safe_room/bridge{name = "\improper MTF Washroom"})
