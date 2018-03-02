@@ -162,3 +162,7 @@
 	var/flavor_text = ""
 
 	var/nabbing = 0  // Whether a creature with a CAN_NAB tag is grabbing normally or in nab mode.
+
+	var/emote_cd = 0//Emote cooldown.
+
+	var/silent = null
