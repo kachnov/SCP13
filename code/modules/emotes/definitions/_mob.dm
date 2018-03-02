@@ -13,7 +13,7 @@
 
 /mob/Initialize()
 	. = ..()
-	update_emotes()
+	update_emotes() //lets see what happens
 
 // Specific defines follow.
 /mob/living/carbon/alien
@@ -86,7 +86,6 @@
 		/decl/emote/audible/grumble,
 		/decl/emote/audible/groan,
 		/decl/emote/audible/moan,
-		/decl/emote/audible/grunt,
 		/decl/emote/human,
 		/decl/emote/human/deathgasp,
 		/decl/emote/audible/giggle,
@@ -119,7 +118,9 @@
 		/decl/emote/visible/hug,
 		/decl/emote/visible/dap,
 		/decl/emote/visible/signal,
-		/decl/emote/visible/handshake
+		/decl/emote/visible/handshake,
+		/decl/emote/audible/clearthroat,
+		/decl/emote/audible/hem
 	)
 
 /mob/living/silicon/robot
