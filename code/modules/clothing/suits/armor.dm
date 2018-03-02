@@ -38,6 +38,13 @@
 	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS
 	heat_protection = UPPER_TORSO|LOWER_TORSO|ARMS
 
+/obj/item/clothing/suit/armor/vest/bgguard
+	name = "guard vest"
+	armor = list(melee = 50, bullet = 40, laser = 20, energy = 25, bomb = 30, bio = 0, rad = 0)
+	desc = "A synthetic armor vest, commonly worn by security personnel. This one has added ballistic plates."
+	icon_state = "bgarmor"
+	item_state = "bgarmor"
+
 /obj/item/clothing/suit/armor/swat/officer
 	name = "officer jacket"
 	desc = "An armored jacket used in special operations."
