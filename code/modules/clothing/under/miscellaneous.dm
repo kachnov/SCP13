@@ -682,22 +682,22 @@
 	permeability_coefficient = 0.50
 	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 30, rad = 0)
 
-/obj/item/clothing/under/whiteuniform
+/obj/item/clothing/under/scp/whiteuniform
 	name = "white uniform"
 	desc = "A sterile white uniform."
 	icon_state = "white"
 
-/obj/item/clothing/under/greyuniform
+/obj/item/clothing/under/scp/greyuniform
 	name = "grey uniform"
 	desc = "A dull grey uniform."
 	icon_state = "grey"
 
-/obj/item/clothing/under/suittie
+/obj/item/clothing/under/scp/suittie
 	name = "suit and tie"
 	desc = "A rather sterile looking suit and tie."
 	icon_state = "suit"
 
-/obj/item/clothing/under/dclass
+/obj/item/clothing/under/scp/dclass
 	name = "D-Class uniform"
 	desc = "A bright orange jumpsuit, indicative of Class D personnel."
 	icon_state = "d"
