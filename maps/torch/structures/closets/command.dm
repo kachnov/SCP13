@@ -123,3 +123,37 @@
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag, /obj/item/weapon/storage/backpack/messenger)),
 		new /datum/atom_creator/weighted(list(/obj/item/device/flashlight, /obj/item/device/flashlight/flare, /obj/item/device/flashlight/glowstick/random))
 	)
+
+
+// SCP LOCKERS
+
+/obj/structure/closet/secure_closet/scpcommand/facilityadmin
+	name = "Facility Director's locker"
+	req_access = list(access_captain)
+	icon_state = "flocked"
+	icon_closed = "funlocked"
+	icon_locked = "flocked"
+	icon_opened = "fopen"
+	icon_off = "foff"
+/* PENDING OVERHAUL
+/obj/structure/closet/secure_closet/CO/WillContain()
+	return list(
+		/obj/item/clothing/suit/armor/pcarrier/medium/command,
+		/obj/item/weapon/cartridge/captain,
+		/obj/item/clothing/head/helmet/solgov/command,
+		/obj/item/device/radio/headset/heads/torchcaptain,
+		/obj/item/clothing/glasses/sunglasses,
+		/obj/item/weapon/gun/projectile/revolver/webley/captain,
+		/obj/item/ammo_magazine/c44,
+		/obj/item/ammo_magazine/c44,
+		/obj/item/clothing/accessory/holster/thigh,
+		/obj/item/weapon/melee/telebaton,
+		/obj/item/device/flash,
+		/obj/item/device/megaphone,
+		/obj/item/weapon/storage/box/ids,
+		/obj/item/weapon/clipboard,
+		/obj/item/device/holowarrant,
+		/obj/item/weapon/folder/blue,
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/captain, /obj/item/weapon/storage/backpack/satchel_cap)),
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/captain, /obj/item/weapon/storage/backpack/messenger/com))
+	)*/
