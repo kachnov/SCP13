@@ -154,3 +154,177 @@
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
 	)
+
+// MTF LOCKERS
+
+/obj/structure/closet/secure_closet/mtf/enlisted
+	name = "MTF Enlisted Locker"
+//	req_access = list(access_forensics_lockers)
+	icon_state = "enlistedlocked"
+	icon_closed = "enlistedunlocked"
+	icon_locked = "enlistedlocked"
+	icon_opened = "enlistedopen"
+	icon_off = "enlistedoff"
+/* AWAITING OVERHAUL, REMOVE THIS AFTER ITEMS BEING ADDED.
+/obj/structure/closet/secure_closet/forensics/WillContain()
+	return list(
+		/obj/item/clothing/gloves/forensic,
+		/obj/item/device/radio/headset/headset_sec,
+		/obj/item/clothing/suit/armor/vest/detective,
+		/obj/item/clothing/head/helmet/solgov/security,
+		/obj/item/clothing/suit/armor/pcarrier/medium/security,
+		/obj/item/weapon/gun/energy/taser,
+		/obj/item/clothing/accessory/holster/thigh,
+		/obj/item/device/flash,
+		/obj/item/weapon/melee/baton/loaded,
+		/obj/item/weapon/reagent_containers/spray/pepper,
+		/obj/item/weapon/storage/belt/security,
+		/obj/item/taperoll/police,
+		/obj/item/weapon/storage/box/evidence,
+		/obj/item/weapon/storage/box/swabs,
+		/obj/item/weapon/storage/box/gloves,
+		/obj/item/weapon/storage/briefcase/crimekit,
+		/obj/item/weapon/folder/red,
+		/obj/item/device/taperecorder,
+		/obj/item/device/tape/random = 3,
+		/obj/item/weapon/forensics/sample_kit/powder,
+		/obj/item/weapon/forensics/sample_kit,
+		/obj/item/device/uv_light,
+		/obj/item/weapon/reagent_containers/spray/luminol,
+		/obj/item/weapon/reagent_containers/syringe,
+		/obj/item/clothing/suit/storage/toggle/labcoat,
+		/obj/item/clothing/glasses/sunglasses/sechud/toggle,
+		/obj/item/device/holowarrant,
+		/obj/item/device/flashlight/maglight,
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
+	)*/
+
+/obj/structure/closet/secure_closet/mtf/commander
+	name = "MTF Commander Locker"
+//	req_access = list(access_forensics_lockers)
+	icon_state = "cmlocked"
+	icon_closed = "cmunlocked"
+	icon_locked = "cmlocked"
+	icon_opened = "cmopen"
+	icon_off = "cmoff"
+/* AWAITING OVERHAUL, REMOVE THIS AFTER ITEMS BEING ADDED.
+/obj/structure/closet/secure_closet/forensics/WillContain()
+	return list(
+		/obj/item/clothing/gloves/forensic,
+		/obj/item/device/radio/headset/headset_sec,
+		/obj/item/clothing/suit/armor/vest/detective,
+		/obj/item/clothing/head/helmet/solgov/security,
+		/obj/item/clothing/suit/armor/pcarrier/medium/security,
+		/obj/item/weapon/gun/energy/taser,
+		/obj/item/clothing/accessory/holster/thigh,
+		/obj/item/device/flash,
+		/obj/item/weapon/melee/baton/loaded,
+		/obj/item/weapon/reagent_containers/spray/pepper,
+		/obj/item/weapon/storage/belt/security,
+		/obj/item/taperoll/police,
+		/obj/item/weapon/storage/box/evidence,
+		/obj/item/weapon/storage/box/swabs,
+		/obj/item/weapon/storage/box/gloves,
+		/obj/item/weapon/storage/briefcase/crimekit,
+		/obj/item/weapon/folder/red,
+		/obj/item/device/taperecorder,
+		/obj/item/device/tape/random = 3,
+		/obj/item/weapon/forensics/sample_kit/powder,
+		/obj/item/weapon/forensics/sample_kit,
+		/obj/item/device/uv_light,
+		/obj/item/weapon/reagent_containers/spray/luminol,
+		/obj/item/weapon/reagent_containers/syringe,
+		/obj/item/clothing/suit/storage/toggle/labcoat,
+		/obj/item/clothing/glasses/sunglasses/sechud/toggle,
+		/obj/item/device/holowarrant,
+		/obj/item/device/flashlight/maglight,
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
+	)*/
+
+/obj/structure/closet/secure_closet/mtf/nco
+	name = "MTF NCO Locker"
+//	req_access = list(access_forensics_lockers)
+	icon_state = "nlocked"
+	icon_closed = "nunlocked"
+	icon_locked = "nlocked"
+	icon_opened = "nopen"
+	icon_off = "noff"
+/* AWAITING OVERHAUL, REMOVE THIS AFTER ITEMS BEING ADDED.
+/obj/structure/closet/secure_closet/forensics/WillContain()
+	return list(
+		/obj/item/clothing/gloves/forensic,
+		/obj/item/device/radio/headset/headset_sec,
+		/obj/item/clothing/suit/armor/vest/detective,
+		/obj/item/clothing/head/helmet/solgov/security,
+		/obj/item/clothing/suit/armor/pcarrier/medium/security,
+		/obj/item/weapon/gun/energy/taser,
+		/obj/item/clothing/accessory/holster/thigh,
+		/obj/item/device/flash,
+		/obj/item/weapon/melee/baton/loaded,
+		/obj/item/weapon/reagent_containers/spray/pepper,
+		/obj/item/weapon/storage/belt/security,
+		/obj/item/taperoll/police,
+		/obj/item/weapon/storage/box/evidence,
+		/obj/item/weapon/storage/box/swabs,
+		/obj/item/weapon/storage/box/gloves,
+		/obj/item/weapon/storage/briefcase/crimekit,
+		/obj/item/weapon/folder/red,
+		/obj/item/device/taperecorder,
+		/obj/item/device/tape/random = 3,
+		/obj/item/weapon/forensics/sample_kit/powder,
+		/obj/item/weapon/forensics/sample_kit,
+		/obj/item/device/uv_light,
+		/obj/item/weapon/reagent_containers/spray/luminol,
+		/obj/item/weapon/reagent_containers/syringe,
+		/obj/item/clothing/suit/storage/toggle/labcoat,
+		/obj/item/clothing/glasses/sunglasses/sechud/toggle,
+		/obj/item/device/holowarrant,
+		/obj/item/device/flashlight/maglight,
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
+	)*/
+
+/obj/structure/closet/secure_closet/mtf/co
+	name = "MTF CO Locker"
+//	req_access = list(access_forensics_lockers)
+	icon_state = "colocked"
+	icon_closed = "counlocked"
+	icon_locked = "colocked"
+	icon_opened = "coopen"
+	icon_off = "cooff"
+/* AWAITING OVERHAUL, REMOVE THIS AFTER ITEMS BEING ADDED.
+/obj/structure/closet/secure_closet/forensics/WillContain()
+	return list(
+		/obj/item/clothing/gloves/forensic,
+		/obj/item/device/radio/headset/headset_sec,
+		/obj/item/clothing/suit/armor/vest/detective,
+		/obj/item/clothing/head/helmet/solgov/security,
+		/obj/item/clothing/suit/armor/pcarrier/medium/security,
+		/obj/item/weapon/gun/energy/taser,
+		/obj/item/clothing/accessory/holster/thigh,
+		/obj/item/device/flash,
+		/obj/item/weapon/melee/baton/loaded,
+		/obj/item/weapon/reagent_containers/spray/pepper,
+		/obj/item/weapon/storage/belt/security,
+		/obj/item/taperoll/police,
+		/obj/item/weapon/storage/box/evidence,
+		/obj/item/weapon/storage/box/swabs,
+		/obj/item/weapon/storage/box/gloves,
+		/obj/item/weapon/storage/briefcase/crimekit,
+		/obj/item/weapon/folder/red,
+		/obj/item/device/taperecorder,
+		/obj/item/device/tape/random = 3,
+		/obj/item/weapon/forensics/sample_kit/powder,
+		/obj/item/weapon/forensics/sample_kit,
+		/obj/item/device/uv_light,
+		/obj/item/weapon/reagent_containers/spray/luminol,
+		/obj/item/weapon/reagent_containers/syringe,
+		/obj/item/clothing/suit/storage/toggle/labcoat,
+		/obj/item/clothing/glasses/sunglasses/sechud/toggle,
+		/obj/item/device/holowarrant,
+		/obj/item/device/flashlight/maglight,
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel_sec)),
+		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
+	)*/
