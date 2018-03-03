@@ -22,10 +22,10 @@
 		return
 
 	else if(user.gender == MALE)
-		emotesound = "sound/voice/emotes/whimper_male[rand(1,3)].ogg"
+		emotesound = "sound/voice/emotes/whimper_male.ogg"
 
 	else
-		emotesound = "sound/voice/emotes/whimper_female[rand(1,3)].ogg"
+		emotesound = "sound/voice/emotes/whimper_female.ogg"
 
 	if(emotesound)
 		playsound(user, emotesound, 50, 0, 1)
