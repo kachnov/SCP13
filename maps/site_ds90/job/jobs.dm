@@ -11,10 +11,6 @@
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/scp)
 
-	software_on_spawn = list(/datum/computer_file/program/comm,
-							 /datum/computer_file/program/card_mod,
-							 /datum/computer_file/program/camera_monitor)
-
 /datum/job/hop
 	title = "Head of Human Resources"
 	supervisors = "the Facility Director"
@@ -28,13 +24,11 @@
 	allowed_ranks = list(/datum/mil_rank/civ/scp)
 
 
-	access = list(access_adminlvl4)
+	access = list(access_adminlvl4,
+	access_adminlvl3,
+	access_adminlvl2,
+	access_adminlvl1)
 	minimal_access = list()
-
-	software_on_spawn = list(/datum/computer_file/program/comm,
-							 /datum/computer_file/program/card_mod,
-							 /datum/computer_file/program/camera_monitor)
-
 
 
 /datum/job/rd
@@ -47,12 +41,14 @@
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/scp)
 
-	access = list(access_sciencelvl5)
+	access = list(access_sciencelvl5,
+	access_sciencelvl4,
+	access_sciencelvl3,
+	access_sciencelvl2,
+	access_scienclvl1)
 	minimal_access = list()
 
-	software_on_spawn = list(/datum/computer_file/program/comm,
-							 /datum/computer_file/program/aidiag,
-							 /datum/computer_file/program/camera_monitor)
+
 // AWAITING OVERHAUL
 /*
 /datum/job/cmo
