@@ -423,6 +423,22 @@
 
 // TOPSIDE SIGNS
 
-/obj/structure/sign/warning/topside/SecureArealv2
+/obj/structure/sign/warning/topside/SecureArealv1mtf
+	icon_state = "securearea2"
+	desc = "A warning sign which reads: CAUTION, SECURE AREA. LEVEL 1+ CLEARANCE REQUIRED."
+
+/obj/structure/sign/warning/topside/SecureArealv2mtf
 	icon_state = "securearea2"
 	desc = "A warning sign which reads: CAUTION, SECURE AREA. LEVEL 2+ CLEARANCE REQUIRED."
+
+/obj/structure/sign/warning/topside/SecureArealv3mtf
+	icon_state = "securearea2"
+	desc = "A warning sign which reads: CAUTION, SECURE AREA. LEVEL 3+ CLEARANCE REQUIRED."
+
+/obj/structure/sign/warning/topside/SecureArealv4mtf
+	icon_state = "securearea2"
+	desc = "A warning sign which reads: CAUTION, SECURE AREA. LEVEL 4+ CLEARANCE REQUIRED."
+
+/obj/structure/sign/warning/topside/SecureArealv5mtf
+	icon_state = "securearea2"
+	desc = "A warning sign which reads: CAUTION, SECURE AREA. LEVEL 5+ CLEARANCE REQUIRED."
